@@ -19,12 +19,12 @@ public class HomeWork2 {
 
         // Находим меньшее по модулю из чисел.
         int a = 120;
-        int b = 2;
-        int c = -1;
-        int firstOperation = Math.abs(a) < Math.abs(b) ? a:b;
-        int result = Math.abs(c) < Math.abs(firstOperation) ? c:firstOperation;
-        System.out.println(result);
+        int b = 3;
+        int c = -5;
 
+        int firstOperation = Math.abs(a) < Math.abs(b) ? Math.abs(a):Math.abs(b);
+        int result = Math.abs(c) < Math.abs(firstOperation) ? Math.abs(c):firstOperation;
+        System.out.println(result);
 
     }
 }
